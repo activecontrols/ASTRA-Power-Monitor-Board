@@ -936,188 +936,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Shunt"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Shunt"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Shunt resistor with Kelvin connections"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res shunt resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*Shunt*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Shunt_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Shunt_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:LD1117V33"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2121,6 +1939,12 @@
 		(uuid "f0dc8457-ccad-4d53-94c8-e1804e84bbeb")
 	)
 	(junction
+		(at 101.6 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cee996a-02ba-4bf9-80d6-8605531daaff")
+	)
+	(junction
 		(at 118.11 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2151,12 +1975,6 @@
 		(uuid "85b41a87-141b-4af4-9192-28e52df228b2")
 	)
 	(junction
-		(at 101.6 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8de76c9e-f596-45e3-9ac8-ec6c072132d7")
-	)
-	(junction
 		(at 116.84 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2179,12 +1997,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a302355e-8018-4b26-8a2d-29d1aa17479d")
-	)
-	(junction
-		(at 101.6 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aacae428-2aaf-419c-ae27-bff89f096356")
 	)
 	(junction
 		(at 118.11 86.36)
@@ -2217,6 +2029,12 @@
 		(uuid "f5d990c1-d3f5-4f7c-a861-f8ea5ef296c3")
 	)
 	(junction
+		(at 101.6 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7b7f8eb-ad6c-4011-b24c-79492cfe0a2f")
+	)
+	(junction
 		(at 83.82 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2241,16 +2059,6 @@
 			(type default)
 		)
 		(uuid "07a3ac6d-71f3-4ed5-9a1b-2c52c578ef9b")
-	)
-	(wire
-		(pts
-			(xy 101.6 67.31) (xy 101.6 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d21bf86-2756-43a1-b228-da7069ede4e3")
 	)
 	(wire
 		(pts
@@ -2464,6 +2272,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 59.69) (xy 101.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2cd8565-b955-462f-8e43-7285b32316af")
+	)
+	(wire
+		(pts
 			(xy 130.81 25.4) (xy 140.97 25.4)
 		)
 		(stroke
@@ -2581,6 +2399,16 @@
 			(type default)
 		)
 		(uuid "d9abf8cd-2c82-4f8d-9e79-701a65999739")
+	)
+	(wire
+		(pts
+			(xy 101.6 68.58) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ffb16a-f001-43d5-9800-7aa7e87a06ca")
 	)
 	(wire
 		(pts
@@ -3134,30 +2962,30 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Shunt")
+		(lib_id "Device:R")
 		(at 101.6 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "48e39a36-4b61-47df-9ba7-009e4d7e6e13")
+		(uuid "603f338d-9548-4bbe-b035-84bcd2a17f39")
 		(property "Reference" "R_shunt"
-			(at 99.06 63.4999 0)
+			(at 92.202 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "0.5 mΩ"
-			(at 99.06 66.0399 0)
+			(at 92.202 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3169,7 +2997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf"
+		(property "Datasheet" "~"
 			(at 101.6 64.77 0)
 			(effects
 				(font
@@ -3178,7 +3006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Shunt resistor with Kelvin connections"
+		(property "Description" "Resistor"
 			(at 101.6 64.77 0)
 			(effects
 				(font
@@ -3188,16 +3016,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "db90167c-5bc5-4167-a58c-8732ab7904b3")
-		)
-		(pin "4"
-			(uuid "e5534809-861e-4db3-8070-1d2d7f38407f")
+			(uuid "06032918-4f84-4fe3-b8a1-99f100d82260")
 		)
 		(pin "2"
-			(uuid "a05854b8-1c62-4af8-b0a7-3d2f73367a2c")
-		)
-		(pin "3"
-			(uuid "1132e532-b1c9-4c32-98b5-437bb68dd1a0")
+			(uuid "55c79b33-f6c3-4b3a-82ea-f688d6e042c9")
 		)
 		(instances
 			(project ""
