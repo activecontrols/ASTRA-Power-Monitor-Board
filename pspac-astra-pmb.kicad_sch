@@ -2121,16 +2121,10 @@
 		(uuid "f0dc8457-ccad-4d53-94c8-e1804e84bbeb")
 	)
 	(junction
-		(at 100.33 25.4)
+		(at 118.11 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "165a7146-d1d1-40d4-8957-d4cc052b273a")
-	)
-	(junction
-		(at 118.11 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1aaec962-ee74-4978-bbd3-08bbb0a55d83")
+		(uuid "3f96ec73-6d5f-4bdf-80b1-0f3eaab6055d")
 	)
 	(junction
 		(at 140.97 41.91)
@@ -2163,16 +2157,22 @@
 		(uuid "8de76c9e-f596-45e3-9ac8-ec6c072132d7")
 	)
 	(junction
-		(at 118.11 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9015e6b5-2c06-4d24-91d9-f85b6022f74f")
-	)
-	(junction
 		(at 116.84 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95bf5daa-32e4-4895-8a21-1f88d0fd82f2")
+	)
+	(junction
+		(at 118.11 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97c0dc6b-f1ac-4453-a80a-e1fead2e5cf4")
+	)
+	(junction
+		(at 101.6 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d1a6b69-9724-451b-8550-82614798623a")
 	)
 	(junction
 		(at 130.81 25.4)
@@ -2187,16 +2187,16 @@
 		(uuid "aacae428-2aaf-419c-ae27-bff89f096356")
 	)
 	(junction
+		(at 118.11 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad2cb4d9-1bcc-45b3-a13f-1c558897d722")
+	)
+	(junction
 		(at 121.92 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae7e21c9-1638-41e9-ae16-765776a78efb")
-	)
-	(junction
-		(at 118.11 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf2d569c-a054-4dc4-b3d7-fdc5712648b7")
 	)
 	(junction
 		(at 132.08 41.91)
@@ -2224,13 +2224,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 25.4) (xy 100.33 59.69)
+			(xy 101.6 25.4) (xy 101.6 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0488dbb0-5c17-4f0e-b34a-2730e95bebf1")
+	)
+	(wire
+		(pts
+			(xy 101.6 25.4) (xy 107.95 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a3ac6d-71f3-4ed5-9a1b-2c52c578ef9b")
 	)
 	(wire
 		(pts
@@ -2244,13 +2254,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 22.86) (xy 100.33 25.4)
+			(xy 101.6 20.32) (xy 101.6 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c3f588d-a29f-4da6-8577-6825c790fefd")
+	)
+	(wire
+		(pts
+			(xy 118.11 81.28) (xy 118.11 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243a4d91-46a5-4b8f-b54d-4956c26de3c5")
 	)
 	(wire
 		(pts
@@ -2324,16 +2344,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 81.28) (xy 118.11 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f01af11-ed41-4dcc-bad1-b4bfa23017dd")
-	)
-	(wire
-		(pts
 			(xy 101.6 69.85) (xy 107.95 69.85)
 		)
 		(stroke
@@ -2344,16 +2354,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 59.69) (xy 101.6 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56b1a652-73ac-4a9e-8730-a1b51d6f64d4")
-	)
-	(wire
-		(pts
 			(xy 132.08 41.91) (xy 140.97 41.91)
 		)
 		(stroke
@@ -2361,6 +2361,16 @@
 			(type default)
 		)
 		(uuid "5811a7d6-1331-46ad-b525-aa4e026510ad")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 118.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58910448-d0a1-4976-924b-4fbaa41297f7")
 	)
 	(wire
 		(pts
@@ -2604,23 +2614,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 25.4) (xy 107.95 25.4)
+			(xy 101.6 25.4) (xy 100.33 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6626ce4-ae28-4f86-85bf-4151c9380cf1")
-	)
-	(wire
-		(pts
-			(xy 118.11 83.82) (xy 118.11 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f666beaf-8527-43be-b3ef-b2d8d20a03e4")
+		(uuid "f587558a-b9e8-4b08-a8b7-4f2b222c3ce5")
 	)
 	(label "Microcontroller"
 		(at 69.85 83.82 0)
@@ -2657,7 +2657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm"
+		(property "Footprint" ""
 			(at 64.77 83.82 0)
 			(effects
 				(font
@@ -2666,7 +2666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 64.77 83.82 0)
 			(effects
 				(font
@@ -2959,7 +2959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 108.9152 33.02 0)
 			(effects
 				(font
@@ -2977,7 +2977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "81-GRM31CR72E104KW03"
 			(at 107.95 29.21 0)
 			(effects
 				(font
@@ -3151,7 +3151,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.4 mΩ"
+		(property "Value" "0.5 mΩ"
 			(at 99.06 66.0399 0)
 			(effects
 				(font
@@ -3160,7 +3160,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T2.21mm"
+		(property "Footprint" ""
 			(at 99.822 64.77 90)
 			(effects
 				(font
@@ -3169,7 +3169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/gmr-e.pdf"
 			(at 101.6 64.77 0)
 			(effects
 				(font
@@ -3210,7 +3210,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 100.33 22.86 0)
+		(at 101.6 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3218,7 +3218,7 @@
 		(dnp no)
 		(uuid "721f2469-f483-48f6-b4fb-0415e95a6884")
 		(property "Reference" "#PWR01"
-			(at 100.33 26.67 0)
+			(at 101.6 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3227,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 96.266 21.844 0)
+			(at 97.536 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3235,7 +3235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 22.86 0)
+			(at 101.6 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,7 +3244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 22.86 0)
+			(at 101.6 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +3253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 100.33 22.86 0)
+			(at 101.6 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,10 +3281,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7429d2a3-218b-42eb-b41b-58594b21a711")
 		(property "Reference" "C1"
-			(at 109.22 34.29 90)
+			(at 106.172 40.132 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,14 +3291,14 @@
 			)
 		)
 		(property "Value" "0.1 u"
-			(at 109.22 36.83 90)
+			(at 109.982 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 113.03 40.9448 0)
 			(effects
 				(font
@@ -3308,7 +3307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R71C104KA01D?qs=WZmVLWkT%2FeCcuvj%2FpnjfsA%3D%3D"
 			(at 109.22 41.91 0)
 			(effects
 				(font
@@ -3369,7 +3368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 130.302 52.07 90)
 			(effects
 				(font
@@ -3378,7 +3377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 132.08 52.07 0)
 			(effects
 				(font
@@ -3519,7 +3518,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0b7cf34-0a18-463e-bcf5-68c752c1d209")
 		(property "Reference" "J3"
 			(at 125.73 82.5499 0)
@@ -3548,7 +3546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 123.19 83.82 0)
 			(effects
 				(font
@@ -3678,7 +3676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 82.042 91.44 90)
 			(effects
 				(font
@@ -3687,7 +3685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
 			(at 83.82 91.44 0)
 			(effects
 				(font
@@ -3728,7 +3726,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d11621db-d759-4daf-a8cb-639af0fd1e9a")
 		(property "Reference" "J5"
 			(at 95.25 19.05 0)
@@ -3739,7 +3736,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 95.25 21.59 0)
+			(at 87.376 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +3752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 95.25 25.4 0)
 			(effects
 				(font
@@ -3813,7 +3810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" ""
 			(at 139.192 52.07 90)
 			(effects
 				(font
@@ -3822,7 +3819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 140.97 52.07 0)
 			(effects
 				(font
@@ -3957,7 +3954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 96.52 0)
 			(effects
 				(font
@@ -4015,7 +4012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical"
 			(at 161.29 62.23 0)
 			(effects
 				(font
@@ -4024,7 +4021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 161.29 62.23 0)
 			(effects
 				(font
