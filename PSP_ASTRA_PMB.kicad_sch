@@ -2106,12 +2106,6 @@
 		(uuid "5bc2d3cf-4d19-4b41-bf09-9c43992b3e8b")
 	)
 	(junction
-		(at 128.27 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64a3ac87-1101-4257-80b0-1a233b99e83a")
-	)
-	(junction
 		(at 134.62 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2136,10 +2130,16 @@
 		(uuid "9c2eddaa-b647-4cf1-b246-841e7e467422")
 	)
 	(junction
+		(at 128.27 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae962607-b5fb-40e0-9312-036b946d5e61")
+	)
+	(junction
 		(at 110.49 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d5d355ea-5e42-478b-a44c-dd3fc846ba50")
+		(uuid "d86ce9b4-a6ce-4372-b0ef-cf38235b7534")
 	)
 	(junction
 		(at 158.75 78.74)
@@ -2249,16 +2249,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 125.73) (xy 128.27 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39465061-a96f-4f31-9ef2-bad8b557f254")
-	)
-	(wire
-		(pts
 			(xy 127 96.52) (xy 128.27 96.52)
 		)
 		(stroke
@@ -2276,6 +2266,16 @@
 			(type default)
 		)
 		(uuid "50f775c6-684d-4cd5-b5b0-a1312b31097d")
+	)
+	(wire
+		(pts
+			(xy 128.27 106.68) (xy 128.27 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5136e5b6-6311-49bd-abf5-9469bf31cf2d")
 	)
 	(wire
 		(pts
@@ -2346,16 +2346,6 @@
 			(type default)
 		)
 		(uuid "6761c112-2ca3-45df-9dd0-c4304e68f99f")
-	)
-	(wire
-		(pts
-			(xy 120.65 120.65) (xy 110.49 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71964a8a-9d00-4e7a-a91b-e515ffdf99f1")
 	)
 	(wire
 		(pts
@@ -2449,13 +2439,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 106.68) (xy 128.27 115.57)
+			(xy 110.49 120.65) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab184afa-7440-4e83-b108-41d6fc122786")
+		(uuid "aad79b75-947f-4ec2-ac24-cfe214c2864a")
 	)
 	(wire
 		(pts
@@ -2596,6 +2586,36 @@
 			(type default)
 		)
 		(uuid "fa87e1cd-57b3-4a7f-9e73-8731e1812c86")
+	)
+	(wire
+		(pts
+			(xy 128.27 125.73) (xy 128.27 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde05839-8498-4613-9fec-2ad3ec579f29")
+	)
+	(label "Drain"
+		(at 128.27 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f9cd623-c3fa-442d-9b43-8e936fbe0a6c")
+	)
+	(label "Source"
+		(at 128.27 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b45bb70-8e6b-4936-8baa-68065d145dec")
 	)
 	(label "Microcontroller"
 		(at 96.52 120.65 0)
@@ -2885,7 +2905,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34ad50b0-c8f2-4c0f-92ab-e2fe021e2512")
 		(property "Reference" "U5"
 			(at 148.59 55.88 0)
@@ -3469,7 +3488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "PSPAC:MOSFETPMB"
 			(at 130.81 118.11 0)
 			(effects
 				(font
